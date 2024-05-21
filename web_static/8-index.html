@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>AirBnB clone</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/filters.css">
+    <link rel="stylesheet" href="styles/places.css">
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+          crossorigin="anonymous">
+    <link rel="icon" href="images/icon.png">
+    <style>
+      .popover {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+      .popover h2 {
+        font-size: 16px;
+        margin-top: 10px;
+      }
+      .popover ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .popover ul li {
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+      .name_and_price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .price_by_night {
+        font-size: 24px;
+        color: #009688;
+      }
+      .information {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .information .max_guest,
+      .information .number_rooms,
+      .information .number_bathrooms {
+        text-align: center;
+      }
+      .description {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header></header>
+
+    <div class="container">
+      <section class="filters">
+        <div class="locations">
+          <h3>States</h3>
+          <h4>eg. New York, Virginia...</h4>
+          <div class="popover">
+            <h2>New York:</h2>
+            <ul>
+              <li>Buffalo</li>
+              <li>New York City</li>
+            </ul>
+            <h2>Virginia:</h2>
+            <ul>
+              <li>Charlottesville</li>
+              <li>Richmond</li>
+            </ul>
+          </div>
+        </div>
+        <div class="amenities">
+          <h3>Amenities</h3>
+          <h4>eg. Laundry, Internet...</h4>
+          <ul class="popover">
+            <li>Internet</li>
+            <li>TV</li>
+            <li>Kitchen</li>
+            <li>Iron</li>
+          </ul>
+        </div>
+        <button>Search</button>
+      </section>
+
+      <section class="places">
+        <h1>Places</h1>
+        <article>
+          <div class="name_and_price">
+            <h2>Pillow Fort</h2>
+            <div class="price_by_night">$7</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+              <br>2 Guests
+            </div>
+            <div class="number_rooms">
+              <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+              <br>1 Room
+            </div>
+            <div class="number_bathrooms">
+              <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+              <br>0 Bathrooms
+            </div>
+          </div>
+          <div class="user">
+            <strong>Owner:</strong> My 4-year-old son
+          </div>
+          <div class="description">
+            Cramped yet...(cute? pre-school-ey? nvm.), one-bedroom pillow fort
+            constructed by my, er, creative, 4-year-old son. Features hand-me-down
+            blanket beds. Being a pillow fort, it has no electricity, plumbing,
+            internet, or essentially any amenities whatsoever. But, at least
+            it has a nice aroma of dino chicken nuggets? Hey, it's cheap!!
+          </div>
+        </article>
+
+        <article>
+          <div class="name_and_price">
+            <h2>Fraternity House Couch</h2>
+            <div class="price_by_night">$44</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+              <br>1 Guest
+            </div>
+            <div class="number_rooms">
+              <i class="fa fa

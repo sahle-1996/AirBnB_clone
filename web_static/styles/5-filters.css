@@ -1,0 +1,67 @@
+/*
+ * === Filters component styles ===
+ */
+
+/* Filters container style */
+.filters {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 70px;
+  width: 100%;
+}
+
+/* Search button style */
+.filters button {
+  background-color: #ff5a5f;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  font-size: 18px;
+  height: 48px;
+  margin: 12px 30px;
+  width: 20%;
+}
+
+/* Search button hover effect */
+.filters button:hover {
+  background-color: rgba(255, 90, 95, 0.9);
+}
+
+/* Locations and amenities styling */
+.locations,
+.amenities {
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  vertical-align: top;
+}
+
+/* Locations specific styling */
+.locations {
+  border-right: 1px solid #ddd;
+}
+
+/* Common header styles */
+.filters h2,
+.filters h3,
+.filters h4 {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Header 3 styling */
+.filters h3 {
+  font-size: 1.17em;
+  font-weight: 600;
+  padding: 15.5px 0 0 30px;
+}
+
+/* Header 4 styling */
+.filters h4 {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 4.5px 0 12px 30px;
+}

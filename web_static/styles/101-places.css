@@ -1,0 +1,130 @@
+/*
+ * === Listings Style Configuration ===
+ */
+
+/* Flex container for property listings */
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Styling for each property listing */
+.places article {
+  border: 1px solid #ff5a5f;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+  width: 390px;
+}
+
+/* Header container for property name and price */
+.places .name_and_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Circle styling for price per night */
+.places .price_by_night {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 4px solid #ff5a5f;
+  border-radius: 50%;
+  color: #ff5a5f;
+  font-size: 30px;
+}
+
+/* Information section for guests, rooms, and bathrooms */
+.places .information {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Individual info for guests, rooms, and bathrooms */
+.places .max_guest,
+.places .number_rooms,
+.places .number_bathrooms {
+  width: 100px;
+}
+
+/* Padding for owner section */
+.places .user {
+  margin: 20px auto;
+}
+
+/* Top margin for amenities and reviews sections */
+.places .amenities,
+.places .reviews {
+  margin-top: 40px;
+}
+
+/* Row format for amenities list */
+.places .amenities li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Individual amenity icon style */
+.places .amenities i {
+  margin-right: 10px;
+}
+
+/* Align amenity text with icon */
+.places .amenities p {
+  margin: 0;
+}
+
+/*
+ * -- Header Styles for Listings --
+ */
+
+/* Main header styling */
+.places h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0.67em 0;
+  width: 100%;
+}
+
+/* Subheader styling */
+.places h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Header styling for amenities and reviews */
+.places .amenities h2,
+.places .reviews h2 {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+/* Header styling for reviews section */
+.places .reviews h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 20px 0 6px 0;
+}
+
+/* Footer positioning */
+footer {
+  position: relative;
+}

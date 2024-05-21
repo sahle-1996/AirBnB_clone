@@ -1,0 +1,14 @@
+/*
+ * === Header Styling ===
+ */
+
+/* Header CSS */
+header {
+  background-color: #ffffff;
+  background-image: url('../images/logo.png');
+  background-position: 20px center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #cccccc;
+  height: 70px;
+  width: 100%;
+}
