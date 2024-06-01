@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Unique Header</title>
+    <style>
+        header {
+            background-color: white;
+            height: 70px;
+            width: 100%;
+            border-bottom: 1px solid #CCCCCC;
+        }
+
+        #header_logo {
+            height: 100%;
+            width: 142px;
+            background-image: url("../images/logo.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header_logo"></div>
+    </header>
+</body>
+</html>

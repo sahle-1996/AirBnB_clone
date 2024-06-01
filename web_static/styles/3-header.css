@@ -1,0 +1,12 @@
+header {
+    background: white;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Unique Footer</title>
+    <style>
+        footer {
+            position: fixed;
+            bottom: 0;
+            background-color: white;
+            height: 60px;
+            width: 100%;
+            text-align: center;
+            line-height: 30px;
+            border-top: 1px solid #CCCCCC;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <p>Unique Footer Content</p>
+    </footer>
+</body>
+</html>
